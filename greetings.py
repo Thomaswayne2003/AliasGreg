@@ -18,6 +18,9 @@ class Student:
         self.classroom = classroom
         return f"{self.first_name} {self.last_name} joins {classroom}."
 
+    def farewell(self):
+        return f"Hello, {self.first_name}! "
+
 
 if __name__ == "__main__":
     registry = []
