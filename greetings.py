@@ -19,7 +19,7 @@ class Student:
         return f"{self.first_name} {self.last_name} joins {classroom}."
 
     def farewell(self):
-        return f"Hello, {self.first_name}! "
+        return f"Hello, {self.first_name} bg! "
 
 
 if __name__ == "__main__":
